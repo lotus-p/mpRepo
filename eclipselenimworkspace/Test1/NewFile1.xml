@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  verbose="2" >
+  <test name="Test1">
+  <parameter name="url" value="http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000/" />
+  <parameter name="user" value="Selenium" />
+  <parameter name="pass" value="Project12" />
+  <parameter name="symptom" value="fever" />
+    <classes>
+      <class name="testpackage.MMPtestcases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
